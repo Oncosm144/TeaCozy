@@ -1,0 +1,127 @@
+body {
+  diplay: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  width: 1280px;
+  border: 1px solid red;
+}
+header, div {
+  border: 1px solid red;
+}
+#top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 100%;
+  z-index: 20;
+  background-color: black;
+}
+header img {
+  height: 50px;
+  padding: 10px;
+}
+a {
+  color: seashell;
+  padding: 10px;
+}
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  background: url(../images/background.jpg);
+  height: 700px;
+  position: relative;
+  top: 69px;
+  z-index: 15;
+}
+#mission {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+}
+.feature {
+  display: inline-flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  width: 1000px;
+  position: relative;
+  top: 69px;
+  z-index: 10;
+}
+#feature {
+  margin: 0;
+}
+.feature.images {
+  display: inline-flex;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+}
+.feature img {
+  height: 200px;
+  width: 300px;
+}
+.feature.images h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+.locations {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+  justify-content: center;
+  background: url(../images/locations.jpg);
+  height: 500px;
+  position: relative;
+  top: 138px;
+  margin: 0px;
+  z-index: 5;
+}
+#locations {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-flow: column;
+  margin-top: 20px;
+}
+.addresses {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  height: 300px;
+  width: 300px;
+  margin 20px;
+  background-color: black;
+  opacity: 1;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  position: relative;
+  top: 138px;
+  height: 300px;
+  margin: 20px;
+  border: 1px solid red;
+}
+.contact {
+  height: 200px;
+}
+.copyright {
+  text-align: left;
+  margin: 0px;
+}
