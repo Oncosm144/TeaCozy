@@ -1,0 +1,136 @@
+body {
+  diplay: block;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  width: 1280px;
+  margin: 40px;
+  border: 1px solid red;
+}
+header, div {
+  border: 1px solid red;
+}
+#top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  width: 1280px;
+  z-index: 20;
+  background-color: black;
+}
+header img {
+  height: 50px;
+  padding: 10px;
+}
+a {
+  color: seashell;
+  padding: 10px;
+}
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  background: url(../images/background.jpg);
+  height: 700px;
+  width: 1200px;
+  position: relative;
+  top: 69px;
+  left: 40px;
+  z-index: 15;
+}
+.mission h2,
+.mission h4 {
+  background-color: black;
+  width: 1200px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.feature {
+  display: inline-block;
+  width: 1000px;
+  z-index: 10;
+}
+.feature h2,
+.feature h4 {
+  margin: 0px;
+  padding: 10px;
+}
+.feature.images {
+  display: inline-block;
+  align-items: center;
+}
+.feature img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.feature.images h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+.locations {
+  display: inline-block;
+  align-items: center;
+  flex-flow: column wrap;
+  background: url(../images/locations.jpg);
+  height: 500px;
+  width: 1200px;
+  position: relative;
+  top: 276px;
+  left: 40px;
+  z-index: 5;
+}
+.locations h2{
+  margin: 0px;
+}
+.addresses {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+  height: 300px;
+  width: 300px;
+  margin 20px;
+  background-color: black;
+  opacity: 1;
+  position: relative;
+  top: 15px;
+}
+.addresses h3,
+.addresses h4 {
+  margin: 0px;
+  padding: 20px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  position: relative;
+  top: 276px;
+  left: 450px;
+  height: 200px;
+  width: 300px;
+  margin: 20px;
+  border: 1px solid red;
+}
+footer h2,
+footer h5 {
+  margin: 0px;
+  padding: 10px;
+}
+copy {
+  display: flex;
+  position: relative;
+  top: 276px;
+  left: 20px;
+}
