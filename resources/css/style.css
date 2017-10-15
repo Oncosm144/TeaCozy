@@ -15,6 +15,8 @@ header {
   border-bottom: 1px solid seashell;
   background-color: black;
   position: fixed;
+  top: 0px;
+  padding: 4px;
   z-index: 20;
 }
 header img {
@@ -47,6 +49,7 @@ header a {
   margin: 0px;
   padding: 10px;
 }
+/*Tea of the Month*/
 .feature {
   width: 1000px;
   margin: 40px 40px 40px 140px;
@@ -73,8 +76,6 @@ header a {
   height: 550px;
   width: 1200px;
   margin-left: 40px;
-  diplay: flex;
-  flex-direction: row;
 }
 .locations h2 {
   padding-top: 75px;
